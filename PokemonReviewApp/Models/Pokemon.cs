@@ -8,6 +8,11 @@
 
         public DateTime BirthDate { get; set; }
 
+        // one to many relationship
         public ICollection<Review> Reviews { get; set; }
+
+        // many to many relationships
+        public ICollection<PokemonOwner> PokemonOwners { get; set; }
+        public ICollection<PokemonCategory> PokemonCategories { get; set; }
     }
 }
