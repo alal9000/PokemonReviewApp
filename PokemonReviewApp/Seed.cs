@@ -38,7 +38,8 @@ namespace PokemonReviewApp
                         },
                         Owner = new Owner()
                         {
-                            Name = "Ash Ketchum",
+                            FirstName = "Ash",
+                            LastName = "Ketchum",
                             Gym = "Brocks Gym",
                             Country = new Country()
                             {
@@ -68,7 +69,8 @@ namespace PokemonReviewApp
                         },
                         Owner = new Owner()
                         {
-                            Name = "Misty",
+                            FirstName = "Misty",
+                            LastName = "Mountain",
                             Gym = "Mistys Gym",
                             Country = new Country()
                             {
@@ -98,7 +100,8 @@ namespace PokemonReviewApp
                         },
                         Owner = new Owner()
                         {
-                            Name = "Brock",
+                            FirstName = "Brock",
+                            LastName = "Rock",
                             Gym = "Ashs Gym",
                             Country = new Country()
                             {
